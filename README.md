@@ -28,7 +28,7 @@ Simulação de um comércio digital de celulares
 
 
 ## Abrir Projeto
-[Link demonstração]()  
+[Link demonstração](https://e-commerce-simulation.netlify.app/)  
 Clique no link acima para acessar a aplicação
 
 ## Tecnologias Utilizadas
