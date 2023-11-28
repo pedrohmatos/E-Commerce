@@ -1,8 +1,48 @@
-# React + Vite
+# E-Commerce ![fios de tecnologia](./public/assets//icon/favicon.svg)
+Simulação de um comércio digital de celulares
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Índice
+- <a href="#design-do-projeto">Design do Projeto</a>
+- <a href="#abrir-projeto">Abrir Projeto</a>
+- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a>
+- <a href="#autor">Autor</a>
 
-Currently, two official plugins are available:
+## Design do Projeto
+### Visualização em telas pequenas &#8595;
+![Marcas dos celulares](./public/assets//images/mobile-inicial.png)
+![celulares](./public/assets//images/mobile-produtos.png)
+![detalhes do modelo de celular](./public/assets//images/mobile-vitrine.png)
+![produtos no carrinho](./public/assets/images/mobile-carrinho.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### Visualização em telas médias &#8595;
+![Marcas dos celulares](./public/assets//images/media-inicial.png)
+![celulares](./public/assets//images/media-produtos.png)
+![detalhes do modelo de celular](./public/assets//images/media-vitrine.png)
+
+
+### Visualização em telas grandes &#8595;  
+![Marcas dos celulares](./public/assets//images/grande-inicial01.png)
+![celulares](./public/assets//images/grande-produtos.png)
+![detalhes do modelo de celular](./public/assets//images/grande-vitrine.png)
+
+
+## Abrir Projeto
+[Link demonstração]()  
+Clique no link acima para acessar a aplicação
+
+## Tecnologias Utilizadas
+<div display="inline-block">
+  <img align="center" alt="pedro-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">React
+  <img align="center" alt="pedro-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">JavaScript
+  <img align="center" alt="pedro-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS
+  <img align="center" alt="pedro-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">HTML
+</div>
+
+## Autor
+Olá meu nome é Pedro Matos.  
+Tenho 20 anos, moro na Bahia e sou apaixonado pelo ambiente de tecnologia. Adoro acompanhar o contexto tecnológico como um todo, tendências e lançamentos globais sobre programas, softwares, aparelhos, jogos, IA, etc. E venho estudando constantemente sobre programação.  
+
+Entre em contato comigo:  
+
+<a href="https://www.linkedin.com/in/pedro-matos-7b8a50287" target="_blank" rel="noopener noreferrer">LinkedIn</a>  
