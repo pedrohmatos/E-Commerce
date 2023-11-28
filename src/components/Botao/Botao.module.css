@@ -1,0 +1,17 @@
+.botao {
+    font-size: 16px;
+    border: none;
+    background-color: var(--azulClaro);
+    border-radius: 20px;
+    padding: 16px 40px;
+    font-weight: 600;
+    color: var(--letrasEscuras);
+    cursor: pointer;
+}
+
+.botao:hover {
+    transition: 0.5s ease-in-out;
+    background-color: var(--letrasEscuras);
+    color: var(--azulClaro);
+    box-shadow: 0px 0px 16px var(--azulClaro);
+}

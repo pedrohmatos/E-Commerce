@@ -1,0 +1,57 @@
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px var(--azulClaro);
+    padding: 10px;
+    max-width: 350px;
+    margin: 16px auto;
+
+    display: flex;
+    gap: 16px;
+
+    position: relative;
+}
+
+.icone {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: red;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    display: flex;
+    border: 2px solid #fff;
+}
+
+.icone:hover {
+    transition: 0.2s;
+    transform: scale(1.2);
+    border: 2px solid red;
+    border-radius: 100%;
+}
+
+.esquerda {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.imagem {
+    width: 100px;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.modelo {
+    font-size: 20px;
+}
+
+.preco {
+    color: var(--azulDestaque);
+}

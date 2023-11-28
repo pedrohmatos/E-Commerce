@@ -1,0 +1,27 @@
+.principal {
+    color: var(--azulClaro);
+    font-size: 7vw;
+    text-shadow: 0px 0px 10px var(--azulClaro);
+}
+
+.secundario {
+    font-size: 3vw;
+    font-weight: 500;
+    text-wrap: balance;
+    color: #f8f8f8;
+}
+
+@media screen and (max-width: 740px) {
+    .principal {
+        font-size: 10vw;
+    }
+
+    .secundario {
+        font-size: 4vw;
+    }
+
+    .principal,
+    .secundario {
+        text-align: center;
+    }
+}

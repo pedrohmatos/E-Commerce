@@ -1,0 +1,13 @@
+.dadosVitrine {
+    width: 300px;
+    padding: 16px;
+    border: 2px solid #00000065;
+    border-radius: 8px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .dadosVitrine {
+        width: 230px;
+    }
+}

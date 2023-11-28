@@ -1,0 +1,32 @@
+.inputBox {
+    display: inline-block;
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    border-radius: 5px;
+    padding: 5px 40px 5px 12px;
+    position: relative;
+}
+
+.label {
+    font-size: 25px;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    color: var(--azulDestaque);
+    cursor: pointer;
+}
+
+.input {
+    font-size: 20px;
+    width: 300px;
+    border: none;
+    outline: none;
+    color: var(--letrasEscuras);
+    background-color: transparent;
+}
+
+@media screen and (max-width: 450px) {
+    .input {
+        font-size: 16px;
+        width: 200px;
+    }
+}

@@ -1,0 +1,13 @@
+.link {
+    text-decoration: none;
+    color: var(--letrasEscuras);
+}
+
+.link:hover {
+    transition: 0.2s ease-in-out;
+    color: var(--azulDestaque);
+}
+
+.link.aberto {
+    border-bottom: 2px solid var(--letrasEscuras);
+}

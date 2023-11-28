@@ -1,0 +1,99 @@
+.vitrine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin: 40px 0px 32px 0px;
+    background-color: #fff;
+}
+
+.modelo {
+    text-align: center;
+    margin: 32px 0px;
+}
+
+.setaVoltar {
+    font-size: 20px;
+}
+
+.central {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.imagemBox {
+    width: 30vw;
+    min-width: 270px;
+    display: grid;
+    place-items: center;
+    padding-right: 16px;
+    border-right: 2px solid rgba(0, 0, 0, 0.350);
+}
+
+.imagem {
+    width: 100%;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding: 32px;
+    color: var(--letrasEscuras);
+}
+
+.pagamento {
+    color: var(--letrasEscuras);
+    border-left: 2px solid rgba(0, 0, 0, 0.350);
+    padding: 16px 0px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.desconto {
+    color: rgb(0, 190, 0);
+}
+
+.entrega {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+@media screen and (max-width: 1200px) {
+    .central {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .pagamento {
+        margin: 32px 0px;
+        border: 2px solid rgba(0, 0, 0, 0.350);
+        border-radius: 20px;
+        padding: 32px;
+    }
+
+    .central {
+        flex-wrap: wrap-reverse;
+        width: 80vw;
+    }
+
+    .imagemBox {
+        border: none;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .dados {
+        row-gap: 16px;
+    }
+}

@@ -1,0 +1,10 @@
+.fundo {
+    height: 100vh;
+    background-color: var(--letrasEscuras);
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

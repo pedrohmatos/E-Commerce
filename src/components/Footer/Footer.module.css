@@ -1,0 +1,17 @@
+.footer {
+    background-color: #f8f8f8;
+    box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.26);
+    padding: 16px 0px 32px 0px;
+    display: grid;
+    place-items: center;
+}
+
+.texto {
+    color: var(--letrasEscuras);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--azulDestaque);
+    font-weight: 700;
+}

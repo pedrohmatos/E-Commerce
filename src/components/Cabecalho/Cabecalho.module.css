@@ -1,0 +1,57 @@
+.cabecalho {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    gap: 20px;
+    box-shadow: inset 0px -2px 5px rgba(0, 0, 0, 0.26);
+}
+
+.logoMarca {
+    display: flex;
+    align-items: baseline;
+    color: var(--letrasEscuras);
+}
+
+.logo {
+    font-size: 25px;
+    color: var(--azulClaro);
+}
+
+.marca {
+    font-size: 25px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.carrinho {
+    color: var(--letrasEscuras);
+    cursor: pointer;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrinho:hover {
+    transition: 0.3s ease-in-out;
+    font-size: 35px;
+    color: var(--azulClaro);
+}
+
+@media screen and (max-width: 570px) {
+    .cabecalho {
+        padding: 10px;
+    }
+
+    .marca {
+        font-size: 4vw;
+    }
+}
